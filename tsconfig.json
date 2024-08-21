@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./src" // Ajusta esto según la estructura real de tu proyecto
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "../client/**/*.ts"] // Ajusta la exclusión del cliente según sea necesario
+}
